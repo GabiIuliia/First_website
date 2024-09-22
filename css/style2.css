@@ -109,7 +109,7 @@ label {
 
 /* Карусель */
 .carousel .carousel-item img {
-    height: 400px;
+    height: 500px;
     object-fit: cover;
     border-radius: 10px; /* Скругленные углы для изображений в карусели */
 }
