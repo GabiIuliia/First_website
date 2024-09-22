@@ -53,6 +53,15 @@ background-color: #061126;
   color: #7a8ca3;
 }
 
+@media (max-width: 576px) {
+  .navbar-toggler {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+
+
 /* Основное содержимое */
 main {
   background-color: #061126;
@@ -79,6 +88,74 @@ a {
 a:hover {
   color: #ffffff; /* Цвет при наведении на ссылку */
 }
+
+/*Форма для риэлтора*/
+.card {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+}
+
+.profile-photo {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    object-fit: cover;
+    border-radius: 15px; /* Закругленные края */
+}
+
+.contacts p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.contacts i {
+    margin-right: 10px;
+    color: #555;
+}
+
+.contacts p i {
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+@media (min-width: 768px) {
+    .profile-photo {
+        max-width: 250px;
+    }
+}
+
+/*Фото и инфо*/
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px; /* Скругленные углы */
+}
+
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 300px;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-item img {
+        height: 200px;
+    }
+}
+/*Текст рядом с фото инфо*/
+
+.apartment-info {
+    background-color: #fff;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+
+/* Текстовый блок инфо*/
+
+
 /* Контейнер карты */
 .map-container {
     background-color: #61759D;
