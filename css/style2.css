@@ -111,7 +111,7 @@ label {
 .carousel .carousel-item img {
     height: 400px;
     object-fit: cover;
-    border-radius: 20px; /* Скругленные углы для изображений в карусели */
+    border-radius: 10px; /* Скругленные углы для изображений в карусели */
 }
 
 @media (max-width: 768px) {
