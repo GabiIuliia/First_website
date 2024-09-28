@@ -2,6 +2,7 @@
 body {
     background-color: #061126;
     color: #61759D;
+
 }
 
 
@@ -34,7 +35,11 @@ header {
 .navbar-text {
     margin-right: 20px;
     margin-left: 20px;
+    padding: 10px;
     color: #61759D;
+    border-style: ridge;
+    border-color: #ffffff;
+    border-radius: 20px;
 }
 
 .navbar-nav .nav-link {
